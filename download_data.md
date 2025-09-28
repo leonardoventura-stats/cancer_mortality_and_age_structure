@@ -71,7 +71,7 @@ Follow these steps to correctly download the Eurostat Population data:
 8. Drag "Age class" to the row section;
 9. Drag "Geopolitical entity" to the dimension section;
 10. Drag "Sex" in the column section;
-11. Download the file as CSV and "Only displayed dimensions" as "data/Europe_Population.csv" using ";" as separator.
+11. Download the file as CSV and "Only displayed dimensions" as "data/European_Population.csv" using ";" as separator.
 
 You'll need to aggregate the ages into the age classes used in the mortality files as explained below.
 
