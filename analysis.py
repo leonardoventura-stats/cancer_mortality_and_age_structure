@@ -142,16 +142,16 @@ def main():
     print("Graph 1 created, standardized rates: Italy vs Europe")
     # creation of the "raw rates: italy vs europe from 2020 to 2022" graph
     graph_2(df_final, save_path= OUTPUT_DIR / "Raw_rates_Italy_vs_Europe.png")
-    print("Graph 2 created, crude rates: Italy vs Europe")
+    print("Graph 2 created, raw rates: Italy vs Europe")
     # creation of the "standardized rates: italy vs europe age distribution" graph
     graph_3(df_ratio_std_2020_Tot, df_ratio_std_2021_Tot, df_ratio_std_2022_Tot, save_path="output/Age_distribution.png")
     print("Graph 3 created, age distribution")
     # creation of the "bar graphs: standardized rates vs raw rates each year in italy and europe" graph
     graph_4(df_final, save_path= OUTPUT_DIR / "Raw_vs_Std.png")
-    print("Graph 4 created, standardized rates vs crude rates")
+    print("Graph 4 created, standardized rates vs raw rates")
     # creation of the table with the final df with raw and standardized mortality rate per years, sex and country
     table_1(df_final, save_path= OUTPUT_DIR / "Table_Results.png", csv_path= OUTPUT_DIR / "Table_Results.csv")
-    print("Table 1 created, standardized and crude rates for Italy and Europe stratified by sex and year")
+    print("Table 1 created, standardized and raw rates for Italy and Europe stratified by sex and year")
     # creation of the table with the final df with raw and standardized mortality rate per years, sex and country, for EU and EU without Italy
     table_2(df_final_sens, df_final, save_path= OUTPUT_DIR / "Table_Results_Sens.png", csv_path= OUTPUT_DIR / "Table_Results_Sens.csv")
     print("Table 2 created, sensitivity analysis results")
