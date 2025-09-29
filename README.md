@@ -6,11 +6,11 @@ This repository contains the script to calculate crude and standardized mortalit
 
 - `analysis.py` –-> Main script that runs the analysis.
 - `compute_rates.py` –-> Functions to calculate crude mortality rates.
-- `standardize.py` –-> Functions to directly standardize the rates (using ESP2013) and to calculate CI (with Exact Poisson limits method and Gamma method by Fay and Feuer).
+- `standardize_rates.py` –-> Functions to directly standardize the rates (using ESP2013) and to calculate CI (with Exact Poisson limits method and Gamma method by Fay and Feuer).
 - `kitagawa_deco.py` –-> Functions to conduct the Kitagawa decomposition.
 - `sensitivity_analysis.py` –-> Sensitivity analysis (EU vs EU without Italy).
 - `plots.py` –-> Functions to create tables and graphs.
-- `utils.py` –-> Functions to load and clean data.
+- `utility.py` –-> Functions to load and clean data.
 - `requirements.txt` –->  List with requirements.
 - `download_data.md` –-> File with the instructions to download the official data used in the analysis.
 
