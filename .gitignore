@@ -215,3 +215,10 @@ data/*
 notes/*
 *.docx
 *.pdf
+
+# Output
+output/*
+
+# Logs
+*.log
+logs/
