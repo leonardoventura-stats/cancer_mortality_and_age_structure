@@ -56,7 +56,7 @@ All files must be located in the folder `data/` before running `analysis.py`.
 
 ## Requirements
 
-- Python >= 3.10 (tested on v3.13.7)
+- Python >= 3.13 (tested on v3.13.7)
 - See [requirements.txt](requirements.txt) for the full list of dependencies.
 - It's recommended to use a virtual environment.
 
