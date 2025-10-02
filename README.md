@@ -53,7 +53,6 @@ All files must be located in the folder `data/` before running `analysis.py`.
 ## References
 
 - ISTAT and Eurostat datasets as explained in [download_data.md](download_data.md)
-- All the references related to the paper can be found at arXiv: xxxx.xxxx
 
 ## Requirements
 
