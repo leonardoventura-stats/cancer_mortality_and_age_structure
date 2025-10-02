@@ -68,3 +68,5 @@ Data must be downloaded from official sources (ISTAT and Eurostat) as explained 
 If you use this code, please cite:
 Ventura L. The Influence of Age Structure on Cancer Mortality: Evidence from Italy and Europe, 2020-2022.
 Zenodo. DOI: 10.5281/zenodo.17251977
+
+> Note: this is the Concept DOI from Zenodo, which always leads to the latest version of the repository archived on Zenodo.
