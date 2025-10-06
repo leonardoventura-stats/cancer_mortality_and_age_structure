@@ -1,6 +1,10 @@
 # Cancer mortality and age structure analysis (Italy vs Europe)
 
-This repository contains the script to calculate crude and standardized mortality rates, and to conduct a sensitivity analysis and a Kitagawa decomposition.
+This repository contains the code for the methodological note:
+> Ventura L. (2025). *The Influence of Age Structure on Cancer Mortality: Evidence from Italy and Europe, 2020-2022. A Methodological Note.*
+> OSF Preprints: [https://doi.org/10.31222/osf.io/kzac4_v1](https://doi.org/10.31222/osf.io/kzac4_v1)
+
+The repository includes all scripts to conduct all the analysis and to create all tables and figures in the preprint.
 
 ## Code structure
 
@@ -27,7 +31,7 @@ Data should be positioned into the folder `data/`.
 4. Run the main script:
    ```bash
    python analysis.py --input data/ --output output/
-5. Results (Tables and Graphs) will be saved in the folder (output/).
+5. Results (Tables and Graphs) will be saved in the folder `output/`.
 
 ## Output
 
@@ -66,7 +70,8 @@ Data must be downloaded from official sources (ISTAT and Eurostat) as explained 
 
 ## Citation
 If you use this code, please cite:
-Ventura L. The Influence of Age Structure on Cancer Mortality: Evidence from Italy and Europe, 2020-2022.
-Zenodo. DOI: 10.5281/zenodo.17251977
+Ventura L. (2025). *The Influence of Age Structure on Cancer Mortality: Evidence from Italy and Europe, 2020-2022. A Methodological Note.*
+OSF Preprints. [https://doi.org/10.31222/osf.io/kzac4_v1](https://doi.org/10.31222/osf.io/kzac4_v1)
+Zenodo. [https://doi.org/10.5281/zenodo.17251977](https://doi.org/10.5281/zenodo.17251977)
 
-> Note: this is the Concept DOI from Zenodo, which always leads to the latest version of the repository archived on Zenodo.
+> Note: the Zenodo DOI is the Concept DOI, which always leads to the latest version of the repository archived on Zenodo.
